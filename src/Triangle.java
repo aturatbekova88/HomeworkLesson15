@@ -1,11 +1,12 @@
 public class Triangle {
 
-    int a;
-    int b;
-    int c;
+    double a;
+    double b;
+    double c;
 
     public void area() {
-        System.out.println("S = "+a+" * "+b+" * "+c);
-        System.out.println("S = "+a * b * c);
+        double semiperimeter = (a + b + c) / 2;
+        double square = Math.sqrt(semiperimeter * (semiperimeter - a) * (semiperimeter - b) * (semiperimeter - c));
+        System.out.println("S = "+square);
     }
 }

@@ -5,7 +5,7 @@ public class Main {
 
         Triangle triangle = new Triangle();
         triangle.a = 3;
-        triangle.b = 6;
+        triangle.b = 5;
         triangle.c = 4;
 
         triangle.area();
